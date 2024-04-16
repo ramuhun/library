@@ -1,0 +1,180 @@
+
+  
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  
+  .login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .books-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  
+  .issue-container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input,
+  select {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button.issue-btn {
+    background-color: #28a745;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button.issue-btn:hover {
+    background-color: #218838;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #88d8b0; /* Background color */
+  }
+  
+  header {
+    background-color: #ff6f69; /* Header background color */
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 100px; /* Adjust height as needed */
+  }
+  
+  .welcome-text {
+    font-size: xx-large;
+    font-family: comic;
+    font-style: normal;
+    color: #f5e50d; /* Welcome text color */
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #ffcc5c; /* Container background color */
+    border-radius: 10px;
+  }
+  
+  .login-container,
+  .books-container,
+  .issue-container {
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffcc5c; /* Container background color */
+    border-radius: 10px;
+    text-align: center;
+    align-content: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+  }
+  
+  input,
+  select {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button.issue-btn {
+    background-color: #28a745;
+  }
+  
+  button:hover {
+    background-color: #25c3de;
+  }
+  
+  button.issue-btn:hover {
+    background-color: #218838;
+  }
+  
+  /* Adjustments for issue page */
+  .issue-container form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+  }
+  
+  .issue-container form label,
+  .issue-container form input {
+    grid-column: span 2;
+  }
+  
+  .contain {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffcc5c; /* Container background color */
+    border-radius: 10px;
+    
+  }
